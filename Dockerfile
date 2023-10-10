@@ -11,6 +11,9 @@ COPY . /usr/src/app/
 # change to working directory
 WORKDIR /usr/src/app
 
+# set the database url for local development
+ENV DATABASE_URL="postgresql://postgres:@db:5432/"
+
 # install node dependencies
 RUN npm install
 
