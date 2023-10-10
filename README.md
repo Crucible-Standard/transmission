@@ -85,57 +85,5 @@ Preference (SMS Notifications) An additional preference could be added to the ne
 
 The datastructure is as follows:
 
-```
-
-User
-
-| user_id | email          | created_at | updated_at |
-|---------|----------------|------------|------------|
-| 1       | test@test.com  | 2020-01-01 | 2020-01-01 |
-
-Subscription
-
-| subscription_id | name                     | created_at | updated_at |
-|-----------------|--------------------------|------------|------------|
-| 1               | Garden Club Subscription | 2020-01-01 | 2020-01-01 |
-
-Preference
-
-| preference_id | name                    | created_at | updated_at |
-|---------------|-------------------------|------------|------------|
-| 1             | news letter preferences | 2020-01-01 | 2020-01-01 |
-
-Option
-
-| option_id | name               | description                                    | active | created_at | updated_at |
-|-----------|--------------------|------------------------------------------------|--------|------------|------------|
-| 1         | recieve newsletter | Do you want to recieve the news letter?        | true   | 2020-01-01 | 2020-01-01 |
-
-User_Subscription
-
-| user_id | subscription_id | state   | created_at | updated_at |
-|---------|-----------------|---------|------------|------------|
-| 1       | 1               | active  | 2020-01-01 | 2020-01-01 |
-
-Subscription_Preference
-
-| subscription_id | preference_id | created_at | updated_at |
-|-----------------|---------------|------------|------------|
-| 1               | 1             | 2020-01-01 | 2020-01-01 |
-
-Preference_Option
-
-| preference_id | option_id | created_at | updated_at |
-|---------------|-----------|------------|------------|
-| 1             | 1         | 2020-01-01 | 2020-01-01 |
-
-User_Subscription_Preference_Option
-
-| user_id | subscription_id | preference_id | option_id | created_at | updated_at |
-|---------|-----------------|---------------|-----------|------------|------------|
-| 1       | 1               | 1             | 1         | 2020-01-01 | 2020-01-01 |
-
-```
-
 
 
