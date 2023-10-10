@@ -1,4 +1,4 @@
-import { toDDHHMMSS, getHealthCheck } from "./health";
+import { getHealthCheck } from "./health";
 
 // 
 
@@ -6,4 +6,4 @@ import { toDDHHMMSS, getHealthCheck } from "./health";
 // Users and Subscriptions will each have their own models, the db connection and barreling of those methods will be in this file
 
 
-export { toDDHHMMSS, getHealthCheck };
+export { getHealthCheck };
