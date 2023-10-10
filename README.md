@@ -54,8 +54,11 @@ npm run serve
 
 ### Endpoints 
 
+![Screenshot from 2023-10-10 10-41-40](https://github.com/Crucible-Standard/transmission/assets/127320/89317bd9-a71a-41cb-b45c-3c4d742a82df)
 
+![Screenshot from 2023-10-10 10-37-36](https://github.com/Crucible-Standard/transmission/assets/127320/6b98e51d-48ee-46f7-8a7b-b52954f035ca)
 
+![Screenshot from 2023-10-10 10-37-24](https://github.com/Crucible-Standard/transmission/assets/127320/00d14c94-5e77-4a4f-b632-8ff2cb547cd5)
 
 ### Datastructure
 
@@ -81,6 +84,8 @@ Preferences are a logical grouping of options for a subscription. This can be be
 Subscription (Subscription based Thing) would have a single preference, which would be the newsletter.
 Preference (Newsletter) - would have at least one Option (Recieve email newsletter) which would be a boolean value.
 Preference (SMS Notifications) An additional preference could be added to the newsletter, such as "Recieve SMS newsletter" which would be a boolean value as well.
+
+
 
 
 The datastructure is as follows:
